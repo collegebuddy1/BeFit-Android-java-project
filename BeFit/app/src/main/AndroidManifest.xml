@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.DKSoftware.BeFit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_logo_blend"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/app_logo_round_blend"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BeFit">
+        <activity
+            android:name=".TipsDescription"
+            android:exported="false" />
+        <activity
+            android:name=".Exercise"
+            android:exported="false" />
+        <activity
+            android:name=".Tips"
+            android:exported="false" />
+        <activity
+            android:name=".Advance"
+            android:exported="false" />
+        <activity
+            android:name=".Beginner"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
